@@ -249,7 +249,7 @@ body{
 .feature{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    justify-items: end;
+    justify-items: center;
     margin-top: 80px;
    
 }
