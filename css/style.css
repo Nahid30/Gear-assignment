@@ -332,6 +332,51 @@ footer{
     background-color: #E02C6D;
 }
 
+
 /* ----------------------
     Footer part end
 ----------------------- */
+
+
+
+/* ---------------------------
+    Media Quaries Responsive
+----------------------------- */
+
+
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+
+    #influencer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+        grid-column-gap: 0px;
+    }
+    #brand_logo .container{
+        height: 350px;
+    }
+    .logos{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       grid-row-gap: 60px;
+    }
+    .populer_main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 100px;
+
+    }
+    #populer{
+        margin-top: 500px;
+    }
+    #footer{
+        width: 284%;
+        margin-top: 5170px;
+    }
+}
+
+
+
+/* tab devices */
+
