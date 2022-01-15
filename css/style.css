@@ -223,7 +223,7 @@ body{
 }
 
 .see_more{
-    margin-left: 1000px;
+    margin-left: 960px;
     margin-top: 50px;
     
 }
@@ -231,6 +231,13 @@ body{
     color: #E02C6D;
     font-size: 16px;
     font-weight: 600;
+    padding: 10px 20px;
+}
+.see_more a:hover{
+    background-color: #0077b5;
+    color: #fff;
+    transition: .5s;
+    border-radius: 5px;
 }
 .see_more i{
     margin-left: 10px;
@@ -353,7 +360,7 @@ footer{
     #influencer{
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 30px;
-        grid-column-gap: 0px;
+      
     }
     #brand_logo .container{
         height: 350px;
@@ -372,10 +379,21 @@ footer{
     #populer{
         margin-top: 100px;
     }
+
     #populer h3{
         text-align: center;
     }
+    
+    .see_more{
+        margin-left: 900px;
+        margin-top: 50px;
+        
+    }
 
+    .feature{
+       grid-column-gap: 50px;
+       
+    }
 
     .feature_text{
         margin-left: 50px;
@@ -383,15 +401,9 @@ footer{
 
     #footer{
         
-        width: 100%;
+        width: 300%;
         margin-top: 100px;
     } 
-
-
-    
-
-
-
 
 }
 
@@ -400,7 +412,7 @@ footer{
 /* tab devices */
 
 
-@media only screen and (min-width:768px) and (max-width:992px) {
+@media only screen and (min-width:688px) and (max-width:992px) {
     
     .menu{ 
         display: none;
@@ -430,9 +442,25 @@ footer{
     }
     #populer h3{
         text-align: center;
+        padding-left: 340px;
     }
+
+    .see_more{
+        margin-left: 900px;
+        margin-top: 50px;
+        
+    }
+    .feature{
+        grid-column-gap: 50px;
+        
+     }
+    .feature_text{
+        margin-left: 50px;
+    }
+
     #footer{
-        width: 100%;
+
+        width: 145%;
         margin-top: 100px;
     } 
 
