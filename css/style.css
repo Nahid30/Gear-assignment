@@ -357,6 +357,10 @@ footer{
         display: none;
     }
 
+    body{
+        overflow-x: hidden;
+    }
+
     #influencer{
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 30px;
@@ -372,7 +376,7 @@ footer{
     }
     .populer_main{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin-top: 40px;
 
     }
@@ -383,7 +387,7 @@ footer{
     #populer h3{
         text-align: center;
     }
-    
+
     .see_more{
         margin-left: 900px;
         margin-top: 50px;
@@ -416,6 +420,10 @@ footer{
     
     .menu{ 
         display: none;
+    }
+
+    body{
+        overflow-x: hidden;
     }
 
     #influencer{
