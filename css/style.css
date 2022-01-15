@@ -75,7 +75,6 @@ body{
     align-items: center;
     
 }
-
 .text{
     padding-top: 80px;
     padding-left: 80px;
@@ -286,6 +285,9 @@ body{
 ----------------------- */
 
 
+/* ----------------------
+    Footer part start
+----------------------- */
 
 footer{
     height: 240px;
@@ -329,3 +331,7 @@ footer{
 .footer_icons i:hover{
     background-color: #E02C6D;
 }
+
+/* ----------------------
+    Footer part end
+----------------------- */
